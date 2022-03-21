@@ -9,14 +9,11 @@ The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/budget-tracker)
 
-[Finished Mock Up](https://github.com/trfina/budget-tracker/edit/main/README.md/budget-tracker.png)
+![buget-tracker](https://user-images.githubusercontent.com/12851682/159274095-89a0b883-263c-4ec3-b07e-7b293d77e03c.png)
 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Credits](#credits)
 * [License](#license)
 * [Questions](#questions)
 
@@ -25,23 +22,10 @@ npm start will start the application to run in localhost:3001
 
 ## Usage
 Track expenses and deposits by enterining them in the application.  The totals are updated when the app is brought back online. It the transactions are enetered It the transactions are enetered while the ap
-
-## Contributing
-
-    
-## Tests
-
-    
-## Credits
-
     
 ## License
 
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT/)
-
-## Badges
-
-## Features
 
 ## Questions
 

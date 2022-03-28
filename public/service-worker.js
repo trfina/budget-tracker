@@ -9,7 +9,6 @@ const FILES_TO_CACHE = [
     "./js/index.js"
 ]
 
-
 // Respond with cached resources
 self.addEventListener('fetch', function (e) {
     console.log('fetch request : ' + e.request.url)
@@ -39,7 +38,8 @@ self.addEventListener('fetch', function (e) {
     )
   })
   
-  // Delete outdated caches
+  // Delete outdated caches, clear out old service workers 
+  // and add necessary files to the cache
   self.addEventListener('activate', function(e) {
     e.waitUntil(
       caches.keys().then(function(keyList) {

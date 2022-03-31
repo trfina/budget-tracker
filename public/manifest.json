@@ -1,3 +1,5 @@
+const WebpackPwaManifest = require("webpack-pwa-manifest");
+
 {
 "name": "Budget Tracker",
 
@@ -15,10 +17,8 @@
       "sizes": "512x512"
     }
   ],
-
-  "background_color": "#01579b",
-  "theme_color": "#ffffff",
-
+"background_color": "#01579b",
+"theme_color": "#ffffff",
 "start_url": "localhost:3001"
 
 }
